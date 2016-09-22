@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03BD5C2205C3ADFCA4CE7947A78B3447F3CE494E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "03BD5C2205C3ADFCA4CE7947A78B3447F3CE494E" : 0,
+    "2390769BFD5383E3A23F4CFE15540067DDEF074B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "90606B32-E1FC-44B8-A1F5-D2AE57A210D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "03BD5C2205C3ADFCA4CE7947A78B3447F3CE494E" : "VTC-IOS-MD03\/",
+    "2390769BFD5383E3A23F4CFE15540067DDEF074B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoScrollView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DemoScrollView\/DemoScrollView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/anhdbk\/vtc-ios-md03.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03BD5C2205C3ADFCA4CE7947A78B3447F3CE494E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/diepnn01\/voicereminder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2390769BFD5383E3A23F4CFE15540067DDEF074B"
+    }
+  ]
+}
