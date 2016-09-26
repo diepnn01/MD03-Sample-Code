@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F6959AE7E7A6E4CB9A00D04EBAEB00326376204C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F6959AE7E7A6E4CB9A00D04EBAEB00326376204C" : 0,
+    "2390769BFD5383E3A23F4CFE15540067DDEF074B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3A1CB9A1-79F7-45D3-8933-7E1B9604BB17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F6959AE7E7A6E4CB9A00D04EBAEB00326376204C" : "Sample\/",
+    "2390769BFD5383E3A23F4CFE15540067DDEF074B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoCollectionView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "training_ios\/DemoCollectionView\/DemoCollectionView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/diepnn01\/voicereminder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2390769BFD5383E3A23F4CFE15540067DDEF074B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/diepnn01\/sample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F6959AE7E7A6E4CB9A00D04EBAEB00326376204C"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wn6-Js-Vrc">
+                    <rect key="frame" x="0.0" y="0.0" width="110" height="60"/>
+                    <color key="backgroundColor" red="1" green="0.18823529410000001" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZdC-oX-Ybo">
+                    <rect key="frame" x="220" y="1" width="110" height="60"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tjl-Jd-RWH">
+                    <rect key="frame" x="110" y="1" width="110" height="60"/>
+                    <color key="backgroundColor" red="0.1058823529" green="0.64313725489999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wn6-Js-Vrc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5df-sj-b8j"/>
+                <constraint firstAttribute="bottom" secondItem="wn6-Js-Vrc" secondAttribute="bottom" constant="1" id="I9f-ZB-Z9R"/>
+                <constraint firstAttribute="bottom" secondItem="ZdC-oX-Ybo" secondAttribute="bottom" id="L1r-um-0VS"/>
+                <constraint firstAttribute="trailing" secondItem="ZdC-oX-Ybo" secondAttribute="trailing" id="LLo-2D-jRb"/>
+                <constraint firstItem="tjl-Jd-RWH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="TLU-wY-RcF"/>
+                <constraint firstAttribute="bottom" secondItem="tjl-Jd-RWH" secondAttribute="bottom" id="W7l-n9-Qxe"/>
+                <constraint firstItem="ZdC-oX-Ybo" firstAttribute="width" secondItem="tjl-Jd-RWH" secondAttribute="width" id="daS-5d-a2N"/>
+                <constraint firstItem="tjl-Jd-RWH" firstAttribute="leading" secondItem="wn6-Js-Vrc" secondAttribute="trailing" id="dr5-UR-wUS"/>
+                <constraint firstItem="tjl-Jd-RWH" firstAttribute="width" secondItem="wn6-Js-Vrc" secondAttribute="width" id="hdf-hS-72L"/>
+                <constraint firstItem="ZdC-oX-Ybo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="jjB-Jv-joW"/>
+                <constraint firstItem="ZdC-oX-Ybo" firstAttribute="leading" secondItem="tjl-Jd-RWH" secondAttribute="trailing" id="o50-kM-xtz"/>
+                <constraint firstItem="wn6-Js-Vrc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yXi-zG-YT9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="212" y="160.5"/>
+        </view>
+    </objects>
+</document>
