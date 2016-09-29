@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoSwipeGesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aJ-mm-nYq">
+                                <rect key="frame" x="252" y="276" width="96.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="5aJ-mm-nYq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FME-cZ-wmg"/>
+                            <constraint firstItem="5aJ-mm-nYq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uSp-jx-tIg"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Mj6-iY-ydE" appends="YES" id="BBd-eP-Six"/>
+                            <outletCollection property="gestureRecognizers" destination="LJc-GC-R6u" appends="YES" id="Ykv-dq-xtM"/>
+                            <outletCollection property="gestureRecognizers" destination="89t-EC-Fis" appends="YES" id="PeN-X1-Vul"/>
+                            <outletCollection property="gestureRecognizers" destination="483-pu-JSc" appends="YES" id="BTk-2a-SOa"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="5aJ-mm-nYq" id="aFZ-C9-oZu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Mj6-iY-ydE">
+                    <connections>
+                        <action selector="actionRight:" destination="BYZ-38-t0r" id="QXA-Wy-IGc"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="LJc-GC-R6u">
+                    <connections>
+                        <action selector="actionLeft:" destination="BYZ-38-t0r" id="SEH-PA-130"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="89t-EC-Fis">
+                    <connections>
+                        <action selector="actionDown:" destination="BYZ-38-t0r" id="LQG-Io-QxU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="483-pu-JSc">
+                    <connections>
+                        <action selector="actionUp:" destination="BYZ-38-t0r" id="SXC-2E-jmU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>

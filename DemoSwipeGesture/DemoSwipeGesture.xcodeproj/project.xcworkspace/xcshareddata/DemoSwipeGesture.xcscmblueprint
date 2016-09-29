@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3944BBC6275F0FCB67EA04005793F90ED045DEA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3944BBC6275F0FCB67EA04005793F90ED045DEA2" : 0,
+    "2390769BFD5383E3A23F4CFE15540067DDEF074B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "340389EA-AFCA-4943-96E5-49FEA7577480",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3944BBC6275F0FCB67EA04005793F90ED045DEA2" : "ShareGif\/",
+    "2390769BFD5383E3A23F4CFE15540067DDEF074B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DemoSwipeGesture",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DemoSwipeGesture\/DemoSwipeGesture.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/diepnn01\/voicereminder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2390769BFD5383E3A23F4CFE15540067DDEF074B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/diepnn01\/sharegift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3944BBC6275F0FCB67EA04005793F90ED045DEA2"
+    }
+  ]
+}
